@@ -1,0 +1,36 @@
+.search-wrapper {
+  display: flex;
+  background-color: rgba(217, 217, 217, 50%);
+  border-radius: 30px;
+  padding: 0.2rem 0.5rem;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.search-icon,
+.clear-icon {
+  margin: 0.5rem;
+}
+
+.clear-icon {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.header-search {
+  background: none;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .search-wrapper {
+    max-width: 50%;
+  }
+
+  .header-search {
+    width: auto; /* Let the input field adjust based on the available space */
+  }
+}
