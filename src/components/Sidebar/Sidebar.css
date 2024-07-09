@@ -1,0 +1,23 @@
+.sidebar-wrapper {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid var(--accent);
+  max-width: 12rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.subreddits-container {
+  padding: 1rem;
+}
+
+.subreddits-container li {
+  list-style: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}

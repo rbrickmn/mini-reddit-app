@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchBar from "./components/SearchBar/SearchBar";
+import Sidebar from "./components/Sidebar/Sidebar";
 import "./app.css";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <header>
         <SearchBar />
       </header>
+      
+      <Sidebar />
     </main>
   );
 }
