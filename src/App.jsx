@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import SearchBar from "./components/SearchBar/SearchBar";
+import "./app.css";
 
 function App() {
   return (
-    <header>
-      <SearchBar />
-    </header>
+    <main>
+      <header>
+        <SearchBar />
+      </header>
+    </main>
   );
 }
 

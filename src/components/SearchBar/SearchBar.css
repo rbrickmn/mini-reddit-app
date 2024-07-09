@@ -1,4 +1,5 @@
 .search-wrapper {
+  overflow: visible;
   display: flex;
   background-color: rgba(217, 217, 217, 50%);
   border-radius: 30px;

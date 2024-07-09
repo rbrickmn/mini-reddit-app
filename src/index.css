@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --text: #050315;
+  --background: #fbfbfe;
+  --primary: #2f27ce;
+  --secondary: #dedcff;
+  --accent: #433bff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,5 +16,9 @@
 
 html {
   scroll-behavior: smooth;
-  height: 200%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
 }
