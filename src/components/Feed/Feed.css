@@ -1,0 +1,52 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 97;
+  padding-left: 12rem;
+  vertical-align: middle;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid var(--accent); */
+  background-color: #d9d9d970;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  vertical-align: middle;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.pic-container {
+  width: 25px;
+  height: 25px;
+  background-color: var(--secondary);
+  border: 1px solid black;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.subreddit-name {
+  vertical-align: middle;
+}
+
+.bold-name {
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.time-posted {
+  vertical-align: middle;
+}

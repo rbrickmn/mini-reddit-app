@@ -6,15 +6,25 @@ const Sidebar = () => {
     <div className="sidebar-wrapper">
       <div className="subreddits-container">
         <ul>
-          <li>r/subredditname</li>
-          <li>r/subredditname</li>
-          <li>r/subredditname</li>
-          <li>r/subredditname</li>
-          <li>r/subredditname</li>
+          <li>
+            <p>r/subredditname</p>
+          </li>
+          <li>
+            <p>r/subredditname</p>
+          </li>
+          <li>
+            <p>r/subredditname</p>
+          </li>
+          <li>
+            <p>r/subredditname</p>
+          </li>
+          <li>
+            <p>r/subredditname</p>
+          </li>
         </ul>
       </div>
     </div>
-  )
+  );
 };
 
 export default Sidebar;

@@ -8,12 +8,12 @@
   border-right: 1px solid var(--accent);
   max-width: 12rem;
   height: 100vh;
-  overflow-y: auto;
+  background-color: var(--background);
+  overflow: scroll;
 }
 
 .subreddits-container {
   flex: 1;
-  padding: 1rem;
 }
 
 .subreddits-container li {
@@ -21,4 +21,5 @@
   padding: 1rem;
   cursor: pointer;
   font-weight: bold;
+  text-align: center;
 }
