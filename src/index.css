@@ -23,3 +23,13 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--background);
 }
+
+@media (max-width: 600px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+
+  .feed {
+    padding-left: 0;
+  }
+}

@@ -9,6 +9,3 @@ header {
   border-bottom: 1px solid var(--accent);
 }
 
-.app-sidebar {
-  position: fixed;
-}

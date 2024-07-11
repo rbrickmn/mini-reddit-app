@@ -10,10 +10,12 @@ function App() {
       <header>
         <SearchBar />
       </header>
-      <div className="app-content">
-        <Feed className="app-feed" />
-      </div>
-      <Sidebar className="app-sidebar" />
+      <main>
+        <div className="app-content">
+          <Feed className="app-feed" />
+        </div>
+        <Sidebar className="app-sidebar" />
+      </main>
     </>
   );
 }
