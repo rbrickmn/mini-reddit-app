@@ -18,6 +18,8 @@ const Post = () => {
             will stretch upon reaching the breakpoint. How is it doing?
           </h2>
 
+          <img src="public\building.jpg" alt="" className='post-img' />
+
           <p className="post-text">
             This is where the text goes. Hopefully, if this looks good, we won't need to edit the sizing! I am gooing to keep typing to make the text bigger
           </p>
@@ -56,7 +58,7 @@ const Post = () => {
                 </svg>
               </button>
 
-              <button className="vote-icon">
+              <button className="vote-icon comment-btn">
                 <svg
                   rpl=""
                   aria-hidden="true"

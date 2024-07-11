@@ -74,24 +74,36 @@
 
 .btn {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .vote-icon {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #0503150b;
   margin-right: 1rem;
-  padding: 0.5rem 0.4rem;
+  padding: 0.7rem;
   border-radius: 15px;
 }
 
 .upvote-count {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .vote-btn {
   cursor: pointer;
+}
+
+.comment-btn {
+  cursor: pointer;
+}
+
+.post-img {
+  border-radius: 12.2px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
