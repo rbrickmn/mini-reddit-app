@@ -22,6 +22,12 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--background);
+  color: var(--text);
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 @media (max-width: 600px) {

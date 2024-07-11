@@ -15,8 +15,6 @@
   display: flex;
   flex-direction: column;
   /* border: 2px solid var(--accent); */
-  background-color: #d9d9d970;
-  border-radius: 15px;
   padding: 1rem 2rem;
   margin: 1rem 2rem;
   vertical-align: middle;
@@ -65,4 +63,41 @@
 .post-title {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.post-text {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.vote-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  background-color: var(--secondary);
+  padding: 0.5rem 0.4rem;
+  border-radius: 10px;
+}
+
+.upvote-count {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 1rem;
+}
+
+.vote-btn {
+  cursor: pointer;
 }
