@@ -16,14 +16,18 @@
 
 html {
   scroll-behavior: smooth;
-  height: 100%;
+  overflow-y: hidden;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--background);
   color: var(--text);
-  height: 100%;
+}
+
+html,
+body {
+  height: 95vh;
 }
 
 button {

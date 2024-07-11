@@ -5,6 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar-wrapper">
       <div className="subreddits-container">
+        <h2>Subreddits</h2>
         <ul>
           <li>
             <p>r/subredditname</p>

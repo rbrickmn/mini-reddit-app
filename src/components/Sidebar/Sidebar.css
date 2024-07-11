@@ -1,4 +1,6 @@
 .sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
   position: sticky;
   left: 0;
   top: 0;
@@ -14,11 +16,13 @@
 
 .subreddits-container {
   flex: 1;
+  margin-top: 5rem;
+  text-align: center;
 }
+
 
 .subreddits-container li {
   list-style: none;
-  padding: 1rem;
   cursor: pointer;
   font-weight: bold;
   text-align: center;
