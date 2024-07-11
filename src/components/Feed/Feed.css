@@ -8,6 +8,7 @@
   z-index: 97;
   padding-left: 12rem;
   vertical-align: middle;
+  overflow: scroll;
 }
 
 .post-card {
@@ -19,11 +20,12 @@
   padding: 1rem 2rem;
   margin: 1rem 2rem;
   vertical-align: middle;
+  max-width: 50rem;
 }
 
 .card-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   vertical-align: middle;
 }
 
@@ -38,6 +40,8 @@
 }
 
 .subreddit-name {
+  display: flex;
+  align-items: center;
   vertical-align: middle;
 }
 
@@ -48,4 +52,17 @@
 
 .time-posted {
   vertical-align: middle;
+  font-weight: normal;
+  opacity: 0.65;
+}
+
+.post-details {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.post-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
