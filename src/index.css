@@ -35,6 +35,22 @@ button {
   border: none;
 }
 
+@media (max-width: 1055px) {
+  /* .post-img {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  .sidebar-wrapper {
+    display: none;
+  }
+
+  .feed {
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .sidebar-wrapper {
     display: none;
@@ -44,17 +60,56 @@ button {
     padding-left: 0;
   }
 
-  .post-img {
+  /* .post-img {
     max-width: 22rem;
     margin-left: auto;
     margin-right: auto;
+  } */
+
+  .post-card {
+    padding: 0.5rem;
+    width: auto;
+  }
+
+  .post-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 30rem;
   }
 }
 
-@media (max-width: 1055px) {
+@media (max-width: 500px) {
+  .post-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .post-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 25rem;
+  }
+
+  .post-card {
+    padding: 1rem;
+    max-width: 25rem;
+  }
+
   .post-img {
-    max-width: 34rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .post-img {
+    width: auto;
+  }
+
+  .post-card {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
