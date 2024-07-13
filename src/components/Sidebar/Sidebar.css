@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   border-right: 1px solid var(--accent);
-  max-width: 12rem;
+  max-width: 14rem;
   height: 100vh;
   background-color: var(--background);
   overflow: scroll;
@@ -17,18 +17,54 @@
 .subreddits-container {
   flex: 1;
   margin-top: 1rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 
 .subreddits-container li {
+  display: flex;
+  align-items: center;
   list-style: none;
   font-weight: bold;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  text-align: center;
 }
 
 .subreddits-container li p {
   cursor: pointer;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--accent);
+  padding: 1rem;
+}
+
+.nav-btn {
+  display: flex;
+  background-color: #0503150b;
+  padding: 1rem;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-btn svg {
+  margin-right: 1rem;
+}
+
+.nav-pic-container {
+  max-width: 20px;
+  max-height: 20px;
+  background-color: var(--secondary);
+  border: 1px solid black;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.sub-title {
+  font-weight: bold;
 }
