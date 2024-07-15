@@ -26,6 +26,17 @@
   min-width: 0;
 }
 
+.nav-btn {
+  text-decoration: none;
+  vertical-align: middle;
+  color: initial;
+}
+
+.nav-btn:visited {
+  text-decoration: none;
+  color: initial;
+}
+
 @media (max-width: 600px) {
   .search-wrapper {
     max-width: 75%;

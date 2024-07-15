@@ -36,36 +36,17 @@ button {
 }
 
 @media (max-width: 1055px) {
-  /* .post-img {
-    max-width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .sidebar-wrapper {
     display: none;
   }
 
   .feed {
     padding-left: 0;
+    overflow-x: hidden;
   }
 }
 
 @media (max-width: 600px) {
-  .sidebar-wrapper {
-    display: none;
-  }
-
-  .feed {
-    padding-left: 0;
-  }
-
-  /* .post-img {
-    max-width: 22rem;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .post-card {
     padding: 0.5rem;
     width: auto;
@@ -94,7 +75,8 @@ button {
   }
 
   .post-card {
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     max-width: 25rem;
   }
 

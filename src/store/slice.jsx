@@ -1,5 +1,5 @@
 // slice.jsx
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, combineReducers } from "@reduxjs/toolkit";
 
 const searchSlice = createSlice({
   name: "search",
@@ -20,5 +20,22 @@ const searchSlice = createSlice({
   },
 });
 
+const sidebarSlice = createSlice({
+  name: "sidebar",
+  initialState: {
+    isSidebarVisible: false,
+  },
+  reducers: {
+    toggleSidebar: (state) => {
+      state.isSidebarVisible = !state.isSidebarVisible;
+    },
+  },
+});
+
 export const { setInputValue, setSearchTerm, clearInput } = searchSlice.actions;
-export default searchSlice.reducer;
+export const { toggleSidebar } = sidebarSlice.actions;
+
+export default combineReducers({
+  search: searchSlice.reducer,
+  sidebar: sidebarSlice.reducer,
+});
