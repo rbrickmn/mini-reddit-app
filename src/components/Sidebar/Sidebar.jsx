@@ -41,22 +41,7 @@ const Sidebar = () => {
       <div className="subreddits-container">
         <small className="sub-title">SUBREDDITS</small>
         <ul>
-          <li>
-            <div className="nav-pic-container"></div>
-            <p>r/subredditname</p>
-          </li>
-          <li>
-            <div className="nav-pic-container"></div>
-            <p>r/subredditname</p>
-          </li>
-          <li>
-            <div className="nav-pic-container"></div>
-            <p>r/subredditname</p>
-          </li>
-          <li>
-            <div className="nav-pic-container"></div>
-            <p>r/subredditname</p>
-          </li>
+          
         </ul>
       </div>
     </div>
